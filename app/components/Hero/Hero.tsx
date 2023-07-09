@@ -4,8 +4,8 @@ import Image from "next/image"
 const Hero = () => {
 	return (
 		<>
-			<section className="grid grid-cols-1 justify-center py-5 items-center">
-				<div className="chart-image flex justify-center">
+			<section className="grid grid-cols-1 justify-center py-5 items-center lg:grid-cols-2 ">
+				<div className="chart-image flex justify-center lg:order-2">
 					<Image
 						src={"/images/illustration-intro.svg"}
 						width={500}
